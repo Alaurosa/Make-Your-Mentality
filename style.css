@@ -1,0 +1,117 @@
+/* 
+Image By Color
+https://labs.tineye.com/multicolr/#colors=c1c8e4;weights=100;
+
+Color Scheme
+#5680E9
+#84EEEB
+#5AB9EA
+#C1C8E4
+#8860D0
+*/
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=B612&family=Chivo&family=Doppio+One&family=Lato&display=swap');
+/*
+There are four fonts to choose from:
+- font-family: 'B612', sans-serif;
+- font-family: 'Chivo', sans-serif;
+- font-family: 'Doppio One', sans-serif;
+- font-family: 'Lato', sans-serif;
+*/
+
+/* GENERAL */
+
+/* this creates a variable for each color in our color scheme */
+:root{
+  --darkBlue: #5680E9;
+  --skyBlue: #84EEEB;
+  --lightBlue: #5AB9EA;
+  --greyBlue: #C1C8E4;
+  --purple: #8860D0;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--greyBlue);
+  font-family: 'Chivo', sans-serif;
+}
+
+.title{
+  align-items: center;
+  padding: 7%;
+  font-size: 50px;
+}
+
+/* NAV BAR */
+
+/* INDEX.HTML */
+
+.home-pg{
+  display: flex;
+  flex-direction: column;
+}
+
+.blurb-header{
+  align-items: center;
+  margin: 0 2% 2%;
+  font-size: 40px;
+}
+
+.home-pg-title{
+  background-image: url("assets/background.jpg");
+  background-size: cover;
+}
+
+.home-pg-blurb{
+  background-color: white;
+  margin: 2%;
+  padding: 3%;
+}
+
+.blurb-key{
+  align-items: center;
+  margin: 5px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.blurb-rules-list{
+  font-size: 30px;
+  list-style: inside;
+  list-style-type: decimal;
+  text-align: center;
+  margin: 5px;
+}
+
+.home-pg-TYT{
+  margin: 2%;
+  background-color:var(--lightBlue);
+  padding: 3%;
+}
+
+.TYT-header{
+  margin:0 0 1% 0;
+  font-size: 30px;
+}
+
+#TYT-textbox{
+  padding: 2%;
+  border: none;
+  border-radius: 5px;
+}
+/* FACTS.HTML */
+
+/* FORUM.HTML */
+
+/* QUESTIONS.HTML */
+
+/* QUIZ.HTML */
+
+/* RESOURCES.HTML */
