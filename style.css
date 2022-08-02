@@ -47,9 +47,39 @@ html, body {
   align-items: center;
   padding: 7%;
   font-size: 50px;
+  text-align: center;
 }
 
 /* NAV BAR */
+
+#nav-list{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
+
+.nav-list-item{
+  margin: 2%;
+}
+
+nav button{
+  font-family: 'Chivo', sans-serif;
+  cursor:pointer;
+  margin-right:15px;
+  margin-left: 15px;
+  width:150px;
+  height:50px;
+  float: right;
+  color: black;
+  border-color: gray;
+  background-color: var(--skyBlue);
+}
+
+nav button:hover{
+  box-shadow: 0 8px 16px 0 rgba(15, 68, 76), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: var(--lightBlue);
+}
 
 /* INDEX.HTML */
 
@@ -62,6 +92,7 @@ html, body {
   align-items: center;
   margin: 0 2% 2%;
   font-size: 40px;
+  text-align: center;
 }
 
 .home-pg-title{
